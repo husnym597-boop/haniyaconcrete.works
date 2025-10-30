@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haniya Concrete Works - Reliable Concrete Services in North Central Province, Sri Lanka</title>
+    <meta name="description" content="Professional concrete services in North Central Province, Sri Lanka. Foundation laying, slabs, driveways, and decorative concrete. Get a free quote today.">
+    <meta name="keywords" content="concrete services Sri Lanka, foundation work Anuradhapura, concrete Polonnaruwa, North Central Province construction">
+    
+    <meta property="og:title" content="Haniya Concrete Works - Strength You Can Build On">
+    <meta property="og:description" content="Reliable concrete works in North Central Province, Sri Lanka. Professional foundation, slab, and paving services.">
+    
+    <meta name="twitter:title" content="Haniya Concrete Works">
+    <meta name="twitter:description" content="Professional concrete services in North Central Province, Sri Lanka">
+
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+
+    <style type="text/tailwindcss">
+    @layer theme {
+        :root {
+            --primary-color: #2c2c2c;
+            --secondary-color: #d4a373;
+            --accent-color: #c86240;
+            --light-bg: #f5f5f0;
+            --text-dark: #1a1a1a;
+            --text-light: #666666;
+        }
+    }
+
+    @layer base {
+        body {
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            color: var(--text-dark);
+            background-color: white;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Oswald', sans-serif;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+    }
+
+    @layer components {
+        .btn-primary {
+            @apply px-8 py-4 bg-[var(--accent-color)] text-white font-bold uppercase tracking-wide rounded-sm hover:bg-opacity-90 transition-all duration-300 shadow-lg;
+        }
+        
+        .btn-secondary {
+            @apply px-8 py-4 bg-[var(--primary-color)] text-white font-bold uppercase tracking-wide rounded-sm hover:bg-opacity-90 transition-all duration-300;
+        }
+        
+        .section-title {
+            @apply text-4xl md:text-5xl font-bold text-[var(--primary-color)] mb-4;
+        }
+        
+        .service-card {
+            @apply bg-white p-6 rounded-sm shadow-md hover:shadow-xl transition-all duration-300 border-t-4 border-[var(--accent-color)];
+        }
+    }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/ServiceSnapshot.js"></script>
+    <script type="text/babel" src="components/SocialProof.js"></script>
+    <script type="text/babel" src="components/FinalCTA.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="components/WhatsAppWidget.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
